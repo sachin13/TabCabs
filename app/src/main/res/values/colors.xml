@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F5B60D</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#F5B60D</color>
+
+    <color name="hint">#F5B60D</color>
+    <color name="text_color">#F5B60D</color>
+    <color name="yellow">#F5B60D</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="backgroundColor">#dd0c13</color>
+
+    <color name="transbackground">#59F5B60D</color>
+
+
+    <color name="gray">#D3D3D3</color>>
+
+    <color name="btncolor">#43B287</color>
+
+    <color name="lihyellow">#F7DC6F</color>
+
+
+    <color name="grayish">#505050</color>
+
+
+    <color name="placeholder_bg">#dddddd</color>
+    <color name="grayishtra">#59505050</color>
+</resources>

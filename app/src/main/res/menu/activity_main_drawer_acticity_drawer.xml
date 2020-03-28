@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+
+
+
+        <item
+            android:id="@+id/Home"
+            android:icon="@drawable/dashboard"
+            android:title="@string/Home" />
+
+
+
+
+
+
+        <item
+            android:id="@+id/Profile"
+            android:icon="@drawable/myprofile"
+            android:title="@string/Profile" />
+
+
+
+        <item
+            android:id="@+id/Advertisement"
+            android:icon="@drawable/ads"
+            android:title="@string/Advertisement" />
+
+
+        <item
+            android:id="@+id/Analytics"
+            android:icon="@drawable/analytics"
+            android:title="@string/Analytics" />
+
+
+        <item
+            android:id="@+id/Setting"
+            android:icon="@drawable/settings"
+            android:title="@string/Setting" />
+
+
+        <item
+            android:id="@+id/Contact_Us"
+            android:icon="@drawable/contact"
+            android:title="@string/Contact_Us" />
+
+
+
+
+
+
+
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "909324646316",
+    "firebase_url": "https://tabcabs-89074.firebaseio.com",
+    "project_id": "tabcabs-89074",
+    "storage_bucket": "tabcabs-89074.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909324646316:android:7bfe7b0b51385740",
+        "android_client_info": {
+          "package_name": "tabcabs.in.tcabs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909324646316-ic3eu53s6qr50c2up4tkjse1kk6n2vo4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIBx7Y5n8fSlC6HKQwDysFPKAdovcZgv8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

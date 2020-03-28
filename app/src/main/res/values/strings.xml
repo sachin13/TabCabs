@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">TabCabs</string>
+
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="Home">Home</string>
+
+
+    <string name="Profile">Profile</string>
+    <string name="Payment">Payment</string>
+    <string name="Advertisement">Advertisement</string>
+    <string name="Analytics">Analytics</string>
+    <string name="Setting">Setting</string>
+    <string name="Contact_Us">Contact Us</string>
+
+    <string name="Postads">Post Advertisement</string>
+
+    <string name="show_password">Show Password</string>
+
+    <string name="company_name"><![CDATA[Copyrights@TabCabs]]></string>
+
+    <string name="History">History</string>
+
+    <string name="btn_enter">LOGIN</string>
+
+    <string name="SignUp">Sign Up</string>
+
+    <string name="Register">CREATE NEW ACCOUNT</string>
+
+    <string name="hint_username">   Username</string>
+    <string name="hint_password">   Password</string>
+
+    <string name="hint_confirm">   Confirm Password</string>
+    <string name="Name">   Name</string>
+
+
+    <string name="NameView"><![CDATA[Name *]]></string>
+
+
+    <string name="usernameView"><![CDATA[Username *]]></string>
+
+
+    <string name="passwordView"><![CDATA[Password *]]></string>
+
+
+    <string name="confirmpasswordView"><![CDATA[Confirm Password *]]></string>
+
+
+    <string name="mobileView"><![CDATA[Mobile No *]]></string>
+
+
+    <string name="emailView"><![CDATA[Email Id *]]></string>
+
+
+    <string name="NameYourAdvertise"><![CDATA[Name Your Advertise.*]]></string>
+
+
+    <string name="EnterAmount"><![CDATA[Enter Amount.*]]></string>
+
+    <string name="TotalNumberofViews"><![CDATA[Total Number of Views.*]]></string>
+
+
+    <string name="email">   Email Id</string>
+
+    <string name="mobile">   Mobile No.</string>
+
+
+    <string name="membershipprice">Membership Price:-</string>
+
+    <string name="validity">Validity:-</string>
+
+
+    <string name="noofads">No Of Ads:-</string>
+
+    <string name="string_title_upload_progressbar_">Uploading.. Wait for a while...</string>
+    <string name="discount">Discount:-</string>
+
+
+</resources>

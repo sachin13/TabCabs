@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OTP">
+
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#F7DC6F"
+            android:baselineAligned="false"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+
+                android:shadowColor="@color/colorPrimary"
+
+                android:layout_gravity="center"
+                android:src="@drawable/applogo"></ImageView>
+
+            <TextView
+                android:id="@+id/text_pcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:gravity="center"
+                android:shadowDx="1"
+                android:shadowDy="3"
+                android:shadowRadius="6"
+                android:text="@string/app_name"
+
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/edit_otp"
+        android:layout_width="fill_parent"
+        android:layout_height="51dip"
+        android:fontFamily="Roboto"
+        android:hint="OTP"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+
+
+
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        />
+
+
+
+    <Button
+        android:id="@+id/btn_enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/model_button"
+        android:text="Submit"
+        android:textAllCaps="false"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

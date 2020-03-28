@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray">
+
+    <LinearLayout
+        android:id="@+id/a"
+        android:background="@color/lihyellow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+
+        android:src="@drawable/applogo"
+        android:layout_gravity="center"
+       />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you sure you want close TabCabs?"
+        android:id="@+id/text_dialog"
+        android:layout_below="@+id/a"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="14sp"
+        android:textColor="#ff000000"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@+id/text_dialog"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="No"
+            android:id="@+id/btn_no"
+            android:layout_marginLeft="30dp"
+
+            android:layout_below="@+id/text_dialog"
+            android:layout_marginBottom="20dp"
+            android:background="@color/lihyellow"
+
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Yes"
+            android:id="@+id/btn_yes"
+            android:layout_marginLeft="60dp"
+
+            android:layout_below="@+id/text_dialog"
+            android:layout_marginBottom="20dp"
+            android:background="@color/lihyellow"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black" />
+    </LinearLayout>>
+
+</RelativeLayout>
